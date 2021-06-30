@@ -6,21 +6,19 @@ body {
 }
 
 
-
+form {
+  
+}
  
 section {
     
-    padding: 3rem;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
+    
+margin-top: 1.4rem;
    
   
 }
 
-form {
-   
-}
+
 
 
 
@@ -30,15 +28,12 @@ form {
     padding: 2rem;
     box-shadow: 0 0 1em rgba(0,0,0,0.2);
     border-radius: 7px;
-    width:100%;
-   
-    
-   
+  
 }
 
-.number-divs input {
-    width:300px;
-}
+
+
+
 
 .top-div {
 
@@ -187,6 +182,7 @@ button {
     
     
     }
+
 
 
 
