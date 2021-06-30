@@ -224,27 +224,29 @@ class FormClone extends Component {
 
     <br />
 
-    <p className="never-submit">Never submit passwords through Google Forms.</p>
+    {/* footer stuff */}
+    <div class ="text-center">
+            <p className="never-submit">Never submit passwords through Google Forms.</p>
 
-    <div className ="recap-div">
-       <span> <img src={image1} className ="img" alt="" /> <span className ="recap">reCAPTCHA</span> </span> <br />
-       <span>
-            <a>Privacy</a>
-            <a>Terms</a>
-        </span>
+            <div className ="recap-div">
+            <span> <img src={image1} className ="img" alt="" /> <span className ="recap">reCAPTCHA</span> </span> <br />
+            <span>
+                    <a>Privacy</a>
+                    <a>Terms</a>
+                </span>
+            </div>
+
+                    <br />
+            <div className ="this-content-box">
+                This content is niether created nor endorsed by Google. 
+                <a>Report Abuse</a> -
+                <a>Terms of Service</a> -
+                <a>Privacy Policy</a>
+            </div>
+
+            <h3 className="google">Google Forms</h3>
+        
     </div>
-
-            <br />
-    <div className ="this-content-box">
-        This content is niether created nor endorsed by Google. 
-        <a>Report Abuse</a> -
-        <a>Terms of Service</a> -
-        <a>Privacy Policy</a>
-    </div>
-
-    <h3 className="google">Google Forms</h3>
-   
-
     </section>
         );
     }
