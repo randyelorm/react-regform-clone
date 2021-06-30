@@ -2,22 +2,27 @@
 body {
     background-color: #E3EDFD;
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
+
 
 
 
 
 section {
     margin: 1.4rem;
-    padding: 2rem;
+    padding: 3rem;
     display:flex;
     flex-direction: column;
     align-items: center;
+   
   
 }
 
 
-
+form {
+    margin: 4rem;
+}
 
 .divs {
     background-color: white;
@@ -161,3 +166,13 @@ button {
 .google {
     color:#9E9E9E;
 }
+
+
+@media (min-width: 320px) {
+
+
+form {
+    margin-left: 10rem;
+   
+}
+ }
