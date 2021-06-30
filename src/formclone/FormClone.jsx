@@ -55,6 +55,7 @@ class FormClone extends Component {
         console.log(this.state.whyjoin)
         console.log(this.state.howhear)
         event.preventDefault();
+       
 
         this.setState ({
             email : "",
@@ -72,6 +73,8 @@ class FormClone extends Component {
             howhear: " ",
         })
 
+       alert("Your form has been submitted")
+        
 
     }
 
