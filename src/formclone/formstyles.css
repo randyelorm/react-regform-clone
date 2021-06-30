@@ -20,9 +20,7 @@ section {
 }
 
 
-form {
-    margin: 4rem;
-}
+
 
 .divs {
     background-color: white;
@@ -168,11 +166,12 @@ button {
 }
 
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
 
-
-form {
-    margin-left: 10rem;
-   
+section {
+    margin-left: 4rem;;
 }
+
+
+
  }
