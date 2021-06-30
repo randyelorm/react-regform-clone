@@ -102,7 +102,7 @@ class FormClone extends Component {
                 <label htmlFor="email"> 
                     <h5>Email <span className ="required"> *</span> </h5>
 
-                    <input type="email" value={this.state.email}  onChange = {this.handleChange}    name ="email" placeholder="Your email"  />
+                    <input type="email" value={this.state.email}  onChange = {this.handleChange}    name ="email" placeholder="Your email" required="required"  />
                 </label>
             </div>
 
@@ -111,7 +111,7 @@ class FormClone extends Component {
                 <label htmlFor="fullname"> 
                     <h5>Full Name <span className ="required">*</span> </h5>
 
-                    <input type="text" value ={this.state.fullname}  onChange = {this.handleChange}   name ="fullname" placeholder="Your answer" />
+                    <input type="text" value ={this.state.fullname}  onChange = {this.handleChange}   name ="fullname" placeholder="Your answer" required="required" />
                 </label>
             </div>
 
@@ -121,7 +121,7 @@ class FormClone extends Component {
                 <label htmlFor="number"> 
                     <h5> Phone Number <span className ="required">*</span> </h5>
 
-                    <input type="number" value ={this.state.number}  onChange = {this.handleChange}   name ="number" placeholder="Your answer"   />
+                    <input type="number" value ={this.state.number}  onChange = {this.handleChange}   name ="number" placeholder="Your answer" required="required"   />
                 </label>
             </div>
 
@@ -176,7 +176,7 @@ class FormClone extends Component {
                 <label htmlFor="location"> 
                     <h5>Location<span className ="required"> *</span> </h5>
 
-                    <input type="text" value ={this.state.location}  onChange = {this.handleChange}    name ="location" placeholder="Your answer"    />
+                    <input type="text" value ={this.state.location}  onChange = {this.handleChange}    name ="location" placeholder="Your answer" required="required"    />
                 </label>
             </div>
 
@@ -185,7 +185,7 @@ class FormClone extends Component {
                 <label htmlFor="school"> 
                     <h5>Current or previous school<span className ="required"> *</span> </h5>
 
-                    <input type="text" value ={this.state.school}  onChange = {this.handleChange}    name ="school"  placeholder="Your answer"   />
+                    <input type="text" value ={this.state.school}  onChange = {this.handleChange}    name ="school"  placeholder="Your answer" required="required"   />
                 </label>
             </div>
 
@@ -194,7 +194,7 @@ class FormClone extends Component {
                 <label htmlFor="whyjoin"> 
                     <h5>Why do you want to join Codetrain <span className ="required">*</span> </h5>
 
-                    <input type="text"  value ={this.state.whyjoin}  onChange = {this.handleChange}    name ="whyjoin" placeholder="Your answer"    />
+                    <input type="text"  value ={this.state.whyjoin}  onChange = {this.handleChange}    name ="whyjoin" placeholder="Your answer"  required="required"   />
                 </label>
             </div>
 
@@ -204,7 +204,7 @@ class FormClone extends Component {
                 <label htmlFor="howhear"> 
                     <h5>How did you hear about Codetrain ? <span className ="required"> *</span> </h5>
 
-                    <input type="text"  value ={this.state.howhear}  onChange = {this.handleChange}    name ="howhear" placeholder="Your answer"    />
+                    <input type="text"  value ={this.state.howhear}  onChange = {this.handleChange}    name ="howhear" placeholder="Your answer" required="required"    />
                 </label>
             </div>
             
